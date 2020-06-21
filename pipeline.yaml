@@ -12,7 +12,7 @@ spec:
   source:
     git:
       ref: master
-      uri: "https://github.com/AdamBien/statustest.git"
+      uri: "https://github.com/nitishsingla91/statustest.git"
     type: Git
   strategy:
     type: JenkinsPipeline
@@ -20,4 +20,4 @@ spec:
       jenkinsfilePath: Jenkinsfile
       env:
       - name: SERVICE_URI
-        value: http://statustest.airhacks.svc:8080      
+        value: https://api.ca-central-1.starter.openshift-online.com:6443      

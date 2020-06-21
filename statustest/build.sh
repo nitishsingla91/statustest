@@ -1,3 +1,3 @@
 #!/bin/sh
 mvn clean install
-docker build -t airhacks/statustest .
+docker build -t nsingla85/statustest .
